@@ -1,0 +1,43 @@
+2023-10-25 16:45:51.864 -03:00 [INF] Started processing CSV files.
+2023-10-25 16:45:51.980 -03:00 [ERR] Error: Could not find a part of the path '/Users/papantiamoah/Documents/ProgAssign1/sampleFile.csv'.
+2023-10-25 16:46:27.434 -03:00 [INF] Started processing CSV files.
+2023-10-25 16:46:27.553 -03:00 [ERR] Error: Could not find a part of the path '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 16:50:39.001 -03:00 [INF] Started processing CSV files.
+2023-10-25 16:50:39.278 -03:00 [ERR] Error processing file '/Users/papantiamoah/Documents/ProgAssign1/bin/Debug/net7.0/../../../Sample Data/2017/11/20/CustomerData4.csv': Header with name 'FirstName'[0] was not found.
+Header with name 'LastName'[0] was not found.
+Header with name 'StreetNumber'[0] was not found.
+Header with name 'PostalCode'[0] was not found.
+Header with name 'PhoneNumber'[0] was not found.
+Header with name 'EmailAddress'[0] was not found.
+Header with name 'Date'[0] was not found.
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+If you are expecting some headers to be missing and want to ignore this validation, set the configuration HeaderValidated to null. You can also change the functionality to do something else, like logging the issue.
+
+IReader state:
+   ColumnCount: 0
+   CurrentIndex: -1
+   HeaderRecord:
+["First Name","Last Name","Street Number","Street","City","Province","Postal Code","Country","Phone Number","email Address"]
+IParser state:
+   ByteCount: 0
+   CharCount: 103
+   Row: 1
+   RawRow: 1
+   Count: 10
+   RawRecord:
+First Name,Last Name,Street Number,Street,City,Province,Postal Code,Country,Phone Number,email Address
+
+
+2023-10-25 16:50:39.285 -03:00 [INF] Processed 0 valid rows.
+2023-10-25 16:50:39.285 -03:00 [INF] Skipped 0 incomplete rows.
+2023-10-25 16:50:39.285 -03:00 [INF] Total execution time: 10/25/2023 4:50:39PM
+2023-10-25 16:50:39.321 -03:00 [ERR] Error: Could not find a part of the path '/Users/papantiamoah/Documents/ProgAssign1/bin/Debug/net7.0/ProgAssign1/logs.txt'.

@@ -1,0 +1,823 @@
+2023-10-25 20:37:45.958 -03:00 [INF] Started processing CSV files.
+2023-10-25 20:37:46.176 -03:00 [ERR] Error processing file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv': Header with name 'FirstName'[0] was not found.
+Header with name 'LastName'[0] was not found.
+Header with name 'StreetNumber'[0] was not found.
+Header with name 'PostalCode'[0] was not found.
+Header with name 'PhoneNumber'[0] was not found.
+Header with name 'EmailAddress'[0] was not found.
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+Headers: 'First Name', 'Last Name', 'Street Number', 'Street', 'City', 'Province', 'Postal Code', 'Country', 'Phone Number', 'email Address'
+If you are expecting some headers to be missing and want to ignore this validation, set the configuration HeaderValidated to null. You can also change the functionality to do something else, like logging the issue.
+
+IReader state:
+   ColumnCount: 0
+   CurrentIndex: -1
+   HeaderRecord:
+["First Name","Last Name","Street Number","Street","City","Province","Postal Code","Country","Phone Number","email Address"]
+IParser state:
+   ByteCount: 0
+   CharCount: 103
+   Row: 1
+   RawRow: 1
+   Count: 10
+   RawRecord:
+First Name,Last Name,Street Number,Street,City,Province,Postal Code,Country,Phone Number,email Address
+
+
+2023-10-25 20:37:46.183 -03:00 [INF] Processed 0 valid rows.
+2023-10-25 20:37:46.183 -03:00 [INF] Skipped 0 incomplete rows.
+2023-10-25 20:37:46.183 -03:00 [INF] Total execution time: 10/25/2023 8:37:46PM
+2023-10-25 20:43:50.869 -03:00 [INF] Started processing CSV files.
+2023-10-25 20:43:51.065 -03:00 [WRN] Skipped invalid record: Ethan Williams
+2023-10-25 20:43:51.065 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.084 -03:00 [WRN] Skipped invalid record: James 
+2023-10-25 20:43:51.084 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.084 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped invalid record:  Moore
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped invalid record:  Johnson
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped invalid record: Mason 
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 20:43:51.085 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.086 -03:00 [WRN] Skipped invalid record: Alexander 
+2023-10-25 20:43:51.086 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:43:51.087 -03:00 [INF] Processed 18 valid rows.
+2023-10-25 20:43:51.087 -03:00 [INF] Skipped 9 incomplete rows.
+2023-10-25 20:43:51.087 -03:00 [INF] Total execution time: 10/25/2023 8:43:51PM
+2023-10-25 20:52:07.325 -03:00 [INF] Started processing CSV files.
+2023-10-25 20:52:07.510 -03:00 [WRN] Skipped invalid record: Ethan Williams
+2023-10-25 20:52:07.510 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped invalid record: James 
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped invalid record:  Moore
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.524 -03:00 [WRN] Skipped invalid record:  Johnson
+2023-10-25 20:52:07.525 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.525 -03:00 [WRN] Skipped invalid record: Mason 
+2023-10-25 20:52:07.525 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.525 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 20:52:07.525 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.526 -03:00 [WRN] Skipped invalid record: Alexander 
+2023-10-25 20:52:07.526 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:52:07.527 -03:00 [INF] Processed 18 valid rows.
+2023-10-25 20:52:07.528 -03:00 [INF] Skipped 9 incomplete rows.
+2023-10-25 20:52:07.528 -03:00 [INF] Total execution time: 10/25/2023 8:52:07PM
+2023-10-25 20:57:46.112 -03:00 [INF] Started processing CSV files.
+2023-10-25 20:57:46.269 -03:00 [WRN] Skipped invalid record: Ethan Williams
+2023-10-25 20:57:46.269 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.279 -03:00 [WRN] Skipped invalid record: James 
+2023-10-25 20:57:46.279 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped invalid record:  Moore
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped invalid record:  Johnson
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped invalid record: Mason 
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 20:57:46.280 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.281 -03:00 [WRN] Skipped invalid record: Alexander 
+2023-10-25 20:57:46.281 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 20:57:46.282 -03:00 [INF] Processed 18 valid rows.
+2023-10-25 20:57:46.282 -03:00 [INF] Skipped 9 incomplete rows.
+2023-10-25 20:57:46.282 -03:00 [INF] Total execution time: 10/25/2023 8:57:46PM
+2023-10-25 21:01:33.374 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:01:33.542 -03:00 [WRN] Skipped invalid record: Ethan Williams
+2023-10-25 21:01:33.543 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.557 -03:00 [WRN] Skipped invalid record: James 
+2023-10-25 21:01:33.557 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.557 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:01:33.558 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.558 -03:00 [WRN] Skipped invalid record:  Moore
+2023-10-25 21:01:33.558 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.558 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:01:33.558 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.558 -03:00 [WRN] Skipped invalid record:  Johnson
+2023-10-25 21:01:33.558 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.558 -03:00 [WRN] Skipped invalid record: Mason 
+2023-10-25 21:01:33.559 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.559 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:01:33.559 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.559 -03:00 [WRN] Skipped invalid record: Alexander 
+2023-10-25 21:01:33.559 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:01:33.560 -03:00 [INF] Processed 18 valid rows.
+2023-10-25 21:01:33.560 -03:00 [INF] Skipped 9 incomplete rows.
+2023-10-25 21:01:33.560 -03:00 [INF] Total execution time: 10/25/2023 9:01:33PM
+2023-10-25 21:02:40.142 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:02:40.297 -03:00 [WRN] Skipped invalid record: Ethan Williams
+2023-10-25 21:02:40.297 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.307 -03:00 [WRN] Skipped invalid record: James 
+2023-10-25 21:02:40.307 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.307 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:02:40.307 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.307 -03:00 [WRN] Skipped invalid record:  Moore
+2023-10-25 21:02:40.307 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.307 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped invalid record:  Johnson
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped invalid record: Mason 
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped invalid record: Alexander 
+2023-10-25 21:02:40.308 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:02:40.309 -03:00 [INF] Processed 18 valid rows.
+2023-10-25 21:02:40.309 -03:00 [INF] Skipped 9 incomplete rows.
+2023-10-25 21:02:40.309 -03:00 [INF] Total execution time: 10/25/2023 9:02:40PM
+2023-10-25 21:05:59.442 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:05:59.650 -03:00 [WRN] Skipped invalid record: Ethan Williams
+2023-10-25 21:05:59.650 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.668 -03:00 [WRN] Skipped invalid record: James 
+2023-10-25 21:05:59.668 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.669 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:05:59.669 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.669 -03:00 [WRN] Skipped invalid record:  Moore
+2023-10-25 21:05:59.669 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.669 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:05:59.669 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.670 -03:00 [WRN] Skipped invalid record:  Johnson
+2023-10-25 21:05:59.670 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.670 -03:00 [WRN] Skipped invalid record: Mason 
+2023-10-25 21:05:59.670 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.670 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:05:59.671 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.672 -03:00 [WRN] Skipped invalid record: Alexander 
+2023-10-25 21:05:59.672 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:05:59.673 -03:00 [INF] Processed 18 valid rows.
+2023-10-25 21:05:59.673 -03:00 [INF] Skipped 9 incomplete rows.
+2023-10-25 21:05:59.674 -03:00 [INF] Total execution time: 10/25/2023 9:05:59PM
+2023-10-25 21:10:10.212 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:10:10.395 -03:00 [WRN] Skipped invalid record: Ethan Williams
+2023-10-25 21:10:10.395 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.406 -03:00 [WRN] Skipped invalid record: James 
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped invalid record:  Moore
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped invalid record:  Johnson
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped invalid record: Mason 
+2023-10-25 21:10:10.407 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.408 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:10:10.408 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.408 -03:00 [WRN] Skipped invalid record: Alexander 
+2023-10-25 21:10:10.408 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:10:10.409 -03:00 [INF] Processed 18 valid rows.
+2023-10-25 21:10:10.409 -03:00 [INF] Skipped 9 incomplete rows.
+2023-10-25 21:10:10.409 -03:00 [INF] Total execution time: 10/25/2023 9:10:10PM
+2023-10-25 21:22:51.631 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:22:51.790 -03:00 [WRN] Skipped invalid record: Ethan Williams
+2023-10-25 21:22:51.790 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.801 -03:00 [WRN] Skipped invalid record: James 
+2023-10-25 21:22:51.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.801 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:22:51.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.801 -03:00 [WRN] Skipped invalid record:  Moore
+2023-10-25 21:22:51.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped invalid record:  Johnson
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped invalid record: Mason 
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped invalid record: Alexander 
+2023-10-25 21:22:51.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/20/CustomerData4.csv'.
+2023-10-25 21:22:51.803 -03:00 [INF] Processed 18 valid rows.
+2023-10-25 21:22:51.803 -03:00 [INF] Skipped 9 incomplete rows.
+2023-10-25 21:22:51.804 -03:00 [INF] Total execution time: 10/25/2023 9:22:51PM
+2023-10-25 21:26:56.350 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:26:56.429 -03:00 [INF] Processed 0 valid rows.
+2023-10-25 21:26:56.430 -03:00 [INF] Skipped 0 incomplete rows.
+2023-10-25 21:26:56.430 -03:00 [INF] Total execution time: 10/25/2023 9:26:56PM
+2023-10-25 21:28:51.218 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:28:51.292 -03:00 [INF] Processed 0 valid rows.
+2023-10-25 21:28:51.292 -03:00 [INF] Skipped 0 incomplete rows.
+2023-10-25 21:28:51.292 -03:00 [INF] Total execution time: 10/25/2023 9:28:51PM
+2023-10-25 21:32:52.765 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:32:52.841 -03:00 [INF] Processed 0 valid rows.
+2023-10-25 21:32:52.841 -03:00 [INF] Skipped 0 incomplete rows.
+2023-10-25 21:32:52.842 -03:00 [INF] Total execution time: 10/25/2023 9:32:52PM
+2023-10-25 21:35:11.723 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:35:11.895 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:35:11.895 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 21:35:11.896 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 21:35:11.897 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:35:11.900 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 21:35:11.900 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 21:35:11.900 -03:00 [INF] Total execution time: 10/25/2023 9:35:11PM
+2023-10-25 21:36:17.246 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:36:17.428 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:36:17.429 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:36:17.430 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.431 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 21:36:17.431 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:36:17.431 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 21:36:17.433 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 21:36:17.433 -03:00 [INF] Total execution time: 10/25/2023 9:36:17PM
+2023-10-25 21:42:15.583 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:42:15.764 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.765 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 21:42:15.766 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:42:15.767 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 21:42:15.768 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 21:42:15.769 -03:00 [INF] Total execution time: 10/25/2023 9:42:15PM
+2023-10-25 21:44:52.603 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:44:52.800 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 21:44:52.801 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 21:44:52.802 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:44:52.805 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 21:44:52.805 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 21:44:52.805 -03:00 [INF] Total execution time: 10/25/2023 9:44:52PM
+2023-10-25 21:48:38.182 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:48:38.352 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:48:38.353 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.353 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 21:48:38.353 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.354 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:48:38.354 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.354 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 21:48:38.354 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.354 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:48:38.354 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.354 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 21:48:38.354 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.356 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 21:48:38.356 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.356 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 21:48:38.356 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.360 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:48:38.360 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.361 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:48:38.361 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.363 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 21:48:38.364 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:48:38.365 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 21:48:38.365 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 21:48:38.365 -03:00 [INF] Total execution time: 10/25/2023 9:48:38PM
+2023-10-25 21:56:16.516 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:56:16.692 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 21:56:16.693 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.697 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 21:56:16.697 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.697 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 21:56:16.697 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.700 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:56:16.700 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.700 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:56:16.700 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.700 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 21:56:16.704 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:16.705 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 21:56:16.705 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 21:56:16.706 -03:00 [INF] Total execution time: 10/25/2023 9:56:16PM
+2023-10-25 21:56:47.896 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:56:48.063 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:56:48.063 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.063 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 21:56:48.063 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.063 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:56:48.063 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.063 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 21:56:48.064 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.064 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:56:48.064 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.064 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 21:56:48.064 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.070 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 21:56:48.070 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.071 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 21:56:48.071 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.071 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:56:48.075 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.075 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:56:48.075 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.075 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 21:56:48.078 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:56:48.079 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 21:56:48.079 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 21:56:48.080 -03:00 [INF] Total execution time: 10/25/2023 9:56:48PM
+2023-10-25 21:57:34.075 -03:00 [INF] Started processing CSV files.
+2023-10-25 21:57:34.245 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 21:57:34.245 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.245 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 21:57:34.246 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.246 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 21:57:34.246 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.246 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 21:57:34.246 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.246 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:57:34.246 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.246 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 21:57:34.249 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.249 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 21:57:34.249 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.249 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 21:57:34.249 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.252 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 21:57:34.252 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.253 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 21:57:34.253 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.257 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 21:57:34.257 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 21:57:34.258 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 21:57:34.258 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 21:57:34.258 -03:00 [INF] Total execution time: 10/25/2023 9:57:34PM
+2023-10-25 22:08:32.940 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:08:33.148 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:08:33.149 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.151 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:08:33.151 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.151 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:08:33.151 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.155 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:08:33.155 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.155 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:08:33.155 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.157 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:08:33.157 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.157 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:08:33.158 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:08:33.158 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:08:33.160 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:08:33.161 -03:00 [INF] Total execution time: 10/25/2023 10:08:33PM
+2023-10-25 22:09:53.882 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:09:54.052 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:09:54.052 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.052 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:09:54.053 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.053 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:09:54.053 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.053 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:09:54.053 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.053 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:09:54.053 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.055 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:09:54.055 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.055 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:09:54.055 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.059 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:09:54.059 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.059 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:09:54.059 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.059 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:09:54.061 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.061 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:09:54.061 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:09:54.062 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:09:54.062 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:09:54.065 -03:00 [INF] Total execution time: 10/25/2023 10:09:54PM
+2023-10-25 22:10:32.852 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:10:33.030 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:10:33.030 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.030 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:10:33.030 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.030 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:10:33.030 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.030 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:10:33.030 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.031 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:10:33.032 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.032 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:10:33.032 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.032 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:10:33.032 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.035 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:10:33.036 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.036 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:10:33.036 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.576 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:10:33.576 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.576 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:10:33.577 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:10:33.586 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:10:33.587 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:10:33.587 -03:00 [INF] Total execution time: 10/25/2023 10:10:33PM
+2023-10-25 22:15:01.910 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:15:02.086 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:15:02.086 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.087 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:15:02.087 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.087 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:15:02.087 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.087 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:15:02.088 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.088 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:15:02.088 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.090 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:15:02.090 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.090 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:15:02.090 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.093 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:15:02.093 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.093 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:15:02.093 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.093 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:15:02.096 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.097 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:15:02.097 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:02.098 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:15:02.099 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:15:02.102 -03:00 [INF] Total execution time: 10/25/2023 10:15:02PM
+2023-10-25 22:15:47.898 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:15:48.071 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:15:48.072 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.074 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:15:48.074 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.074 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:15:48.074 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.078 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:15:48.078 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.078 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:15:48.078 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.081 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:15:48.081 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.081 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:15:48.081 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/customer-data-processor/CSV-traverse/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:15:48.082 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:15:48.084 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:15:48.084 -03:00 [INF] Total execution time: 10/25/2023 10:15:48PM
+2023-10-25 22:19:45.695 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:19:45.893 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:19:45.894 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.896 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:19:45.896 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.896 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:19:45.896 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.901 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:19:45.901 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.901 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:19:45.901 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.901 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:19:45.904 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.904 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:19:45.904 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:19:45.905 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:19:45.905 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:19:45.908 -03:00 [INF] Total execution time: 10/25/2023 10:19:45PM
+2023-10-25 22:24:54.945 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:24:55.152 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:24:55.153 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.153 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:24:55.153 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.153 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:24:55.153 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.154 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:24:55.154 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.154 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:24:55.156 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.156 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:24:55.156 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.157 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:24:55.157 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.161 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:24:55.161 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.161 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:24:55.161 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.161 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:24:55.165 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.165 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:24:55.165 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:24:55.167 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:24:55.167 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:24:55.171 -03:00 [INF] Total execution time: 10/25/2023 10:24:55PM
+2023-10-25 22:25:23.128 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:25:23.297 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:25:23.298 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.300 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:25:23.300 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.300 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:25:23.300 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.304 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:25:23.304 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.304 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:25:23.304 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.304 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:25:23.306 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.306 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:25:23.306 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:25:23.307 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:25:23.307 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:25:23.310 -03:00 [INF] Total execution time: 10/25/2023 10:25:23PM
+2023-10-25 22:26:16.153 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:26:16.371 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:26:16.372 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.372 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:26:16.372 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.372 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:26:16.372 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.372 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:26:16.372 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.372 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:26:16.373 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.374 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:26:16.374 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.374 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:26:16.374 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.378 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:26:16.378 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.378 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:26:16.378 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.378 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:26:16.381 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.381 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:26:16.381 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:26:16.382 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:26:16.382 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:26:16.384 -03:00 [INF] Total execution time: 10/25/2023 10:26:16PM
+2023-10-25 22:29:47.026 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:29:47.224 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:29:47.224 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.224 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:29:47.224 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.224 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:29:47.224 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.225 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:29:47.225 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.225 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:29:47.225 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.227 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:29:47.227 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.227 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:29:47.227 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.231 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:29:47.231 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.231 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:29:47.231 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.231 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:29:47.234 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.234 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:29:47.234 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:29:47.235 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:29:47.235 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:29:47.238 -03:00 [INF] Total execution time: 10/25/2023 10:29:47PM
+2023-10-25 22:30:54.415 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:30:54.588 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:30:54.588 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.589 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:30:54.591 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.591 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:30:54.591 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.592 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:30:54.595 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.595 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:30:54.595 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.595 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:30:54.595 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.599 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:30:54.599 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:30:54.600 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:30:54.600 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:30:54.600 -03:00 [INF] Total execution time: 10/25/2023 10:30:54PM
+2023-10-25 22:33:36.620 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:33:36.832 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:33:36.832 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.832 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:33:36.832 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.832 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:33:36.832 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.833 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:33:36.833 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.833 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:33:36.833 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.833 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:33:36.833 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.837 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:33:36.837 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.837 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:33:36.837 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.837 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:33:36.841 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.841 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:33:36.841 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.841 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:33:36.841 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:33:36.845 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:33:36.845 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:33:36.846 -03:00 [INF] Total execution time: 10/25/2023 10:33:36PM
+2023-10-25 22:42:30.519 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.710 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:42:30.711 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.711 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:42:30.713 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.713 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:42:30.713 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.713 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:42:30.713 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.716 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:42:30.716 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.716 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:42:30.716 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.716 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:42:30.719 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:30.720 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:42:30.720 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:42:30.721 -03:00 [INF] Total execution time: 10/25/2023 10:42:30PM
+2023-10-25 22:42:53.527 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:42:53.712 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:42:53.712 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.712 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:42:53.712 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.712 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:42:53.712 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.713 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:42:53.713 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.713 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:42:53.714 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.714 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:42:53.714 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.714 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:42:53.714 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.717 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:42:53.717 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.717 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:42:53.717 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.717 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:42:53.726 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.726 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:42:53.726 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:42:53.727 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:42:53.727 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:42:53.731 -03:00 [INF] Total execution time: 10/25/2023 10:42:53PM
+2023-10-25 22:43:26.672 -03:00 [INF] Started processing CSV files.
+2023-10-25 22:43:26.872 -03:00 [WRN] Skipped invalid record: James Williams
+2023-10-25 22:43:26.872 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.872 -03:00 [WRN] Skipped invalid record: William Johnson
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped invalid record:  Williams
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped invalid record:  
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped invalid record:  Jones
+2023-10-25 22:43:26.873 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.876 -03:00 [WRN] Skipped invalid record:  Taylor
+2023-10-25 22:43:26.876 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.876 -03:00 [WRN] Skipped invalid record: Liam Davis
+2023-10-25 22:43:26.876 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.880 -03:00 [WRN] Skipped invalid record:  Jackson
+2023-10-25 22:43:26.880 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.880 -03:00 [WRN] Skipped invalid record: Jacob 
+2023-10-25 22:43:26.880 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.880 -03:00 [WRN] Skipped invalid record:  Brown
+2023-10-25 22:43:26.883 -03:00 [WRN] Skipped incomplete record in file '/Users/papantiamoah/Documents/ProgAssign1/Sample Data/2017/11/8/CustomerData4.csv'.
+2023-10-25 22:43:26.884 -03:00 [INF] Processed 22 valid rows.
+2023-10-25 22:43:26.884 -03:00 [INF] Skipped 11 incomplete rows.
+2023-10-25 22:43:26.885 -03:00 [INF] Total execution time: 10/25/2023 10:43:26PM
